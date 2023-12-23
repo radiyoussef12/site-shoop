@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="imgs/Capture.PNG">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/css/glide.core.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/glide.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <title>Boutique en ligne officielle de MSSA laurent</title>
+</head>
+<body>
+   <!-- barre de navigation--> 
+   
+        <nav>
+          <input type="checkbox" id="check">
+         <label for="check" class="checkbtn">
+           <i class="fas fa-bars"></i>
+         </label> 
+          <div class="logo"> 
+            <p><a href="index.html">  MSSA LAURENT</a></p>
+          </div>
+         <ul>
+          <li><a href="hommes.html">Hommes</a></li>
+          <li><a href="femmes.html">Femmes</a></li>
+          <li><a href="enfants.html">Enfants</a></li>
+          <li><a href="cadeaux.html">Cadeaux</a></li>
+          <li><a href="découvrir.html">Découvrir</a></li>
+          <li><a href="login.HTML"><i class="las la-user" style="color: #ffffff;"></i></a></li>
+          <li><a href=""><i class="fa fa-heart" style="color: #fffbfb;"></i></a></li>
+          <li><a href="panier.HTML"><i class="fa-sharp fa fa-cart-shopping" style="color: #ffffff;"></i></a></li>
+          <li><a href=""><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></a></li>
+         </ul> 
+                   
+        </nav>
+           <!-- fin de barre de navigation-->
+           
+           <!-- header-->
+           <header>
+            <div class="overlay">
+                <video autoplay muted loop>
+                <source src="video2.mp4" type="video/mp4">
+                </video>
+                <h3>FÊTES D'HIVER </h3>
+            </div>   
+            
+           </header>
+           <!--fin de header-->
+           <!-- sections-->
+           <section class="slider-container">
+            <div class="glide">
+              <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                  <li class="glide__slide">
+                    <img
+                      src="juj.jpg"
+                      alt="slide1"
+                    />
+                    <h4>PURPLE LABEL</h4>
+                  </li>
+                  <li class="glide__slide">
+                    <img
+                      src="Capture22.PNG"
+                      alt="slide1"
+                    />
+                    <h4>NOS COSTUMES</h4>
+                  </li>
+                  <li class="glide__slide">
+                    <img
+                      src="sac4.jpg"
+                      alt="slide1"
+                    />
+                    <h4>NOS SACS </h4>
+                  </li>
+                  <li class="glide__slide">
+                    <img
+                      src="juji.jpg"
+                      alt="slide1"
+                    />
+                    <h4>NOS ESCAPLINS </h4>
+                  </li>
+                  <li class="glide__slide">
+                    <img
+                      src="versage.jpg"
+                      alt="slide1"
+                    />
+                    <h4>NOS ROBES</h4>
+                  </li>
+                  <li class="glide__slide">
+                    <img
+                      src="family.jpg"
+                      alt="slide1"
+                    />
+                    <h4>Nos coups de coeur</h4>
+                  </li>
+                </ul>
+              </div>
+                <div class="glide__arrows" data-glide-el="controls">
+                  <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="las la-arrow-left"></i></button>
+                  <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="las la-arrow-right"></i></button>
+                </div>
+              </div>
+            </div>
+                   
+            <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+            <script>
+            const config = {
+            type: 'carousel',
+            perView: 5,
+            autoplay:3000,
+            gap: 20,
+            breakpoints: {
+              1200: {
+                perView: 4
+              },
+              1023: {
+                perView: 4
+              },
+              1024: {
+                perView: 3
+              },
+              936: {
+                perView: 3
+              },
+              621: {
+                perView: 2
+              },
+            }
+            };
+            new Glide('.glide', config).mount()
+            </script>
+        </section>
+<!--image du purple-->
+<section class="fam" >
+<img src="fam.png">
+<div class="contenu2">
+  <a href="hommes.html"> Hommes </a>
+  <a href="femmes.html">Femmes</a>
+  <a href="enfants.html">Enfants</a>
+</div>
+</section>
+
+<section class="btn" >
+  <img src="purplimg.PNG">
+  <div class="contenu">
+    <a href="cadeaux.html">découvrir </a>
+    </div>
+  </section>
+
+  <section class="his" >
+    <img src="fe0.jpg">
+    <div class="contenu1">
+     <a href="Decouvrir.html">Notre Histoire</a>
+    </div>
+    </section>
+    
+<!--fin des imgs-->
+
+<!--footer-->
+
+<footer class="footer">
+  <div class="footer-contaner">
+    <div class="footer__els">
+      <div class="footer__el">
+        <h4 class="footer-el--title">Boutique</h4>
+        <ul>
+          <li>
+            <a href="femmes.html">Femmes</a>
+          </li>
+          <li>
+            <a href="hommes.html">Hommes</a>
+          </li>
+          <li>
+            <a href="enfants.html">Enfants</a>
+          </li>
+          <li>
+            <a href="cadeaux.html">Cadeaux</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__el">
+        <h4 class="footer-el--title">Informations</h4>
+        <ul>
+          <li>
+            <a href="">Aide</a>
+          </li>
+          <li>
+            <a href="">Feeback</a>
+          </li>
+          <li>
+           
+          <li>
+            <a href="">Blog</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__el">
+        <h4 class="footer-el--title">Histoire</h4>
+        <ul>
+          <li>
+            <a href="">Qui sommes-nous</a>
+          </li>
+          <li>
+           
+          <li>
+            <a href="">Contact</a>
+          </li>
+
+          <li>
+           
+        </ul>
+      </div>
+      <div class="footer__el">
+        <span
+          >Inscrivez-vous et obtenez nos nouvelles ajouts de produits</span>
+        <div class="footer__el-input">
+          <input type="text" placeholder="Entrer votre E-mail ..." />
+          <input type="submit" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sidebar-social-media">
+    <div class="sidebar-social-media__content">
+      <h3>Suivez-nous sur :</h3>
+      <div class="sidebar-social-media__content_icon">
+        <span><i class="lab la-twitter"></i></span>
+        <span><i class="lab la-instagram"></i></span>
+        <span><i class="lab la-facebook-f"></i></span>
+        <span><i class="lab la-linkedin-in"></i></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+       
+</body>
+</html>
